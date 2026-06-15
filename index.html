@@ -1,3 +1,24 @@
-<!doctype html><html><head><meta charset='utf-8'><title>Quiz České reálie</title>
-<style>body{font-family:Arial;max-width:1000px;margin:auto;padding:20px}button{margin:10px;padding:10px}</style>
-</head><body><h1>České reálie - Test občanství</h1><div id='app'></div><script src='questions.js'></script><script src='app.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>České občanství</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>🇨🇿 České občanství</h1>
+
+    <button onclick="startExam()">Zkouška</button>
+    <button onclick="startPractice()">Procvičování</button>
+    <button onclick="showStats()">Statistiky</button>
+    <button onclick="showMistakes()">Moje chyby</button>
+
+    <div id="content"></div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
